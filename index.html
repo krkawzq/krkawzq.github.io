@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="个人主页">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">我的主页</div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">你好，我是 <span class="highlight">你的名字</span></h1>
+                <p class="hero-subtitle">一名充满热情的开发者和创造者</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">查看项目</a>
+                    <a href="#contact" class="btn btn-secondary">联系我</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-placeholder">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="100" cy="100" r="80" fill="#4a90e2"/>
+                        <text x="100" y="120" font-size="60" fill="white" text-anchor="middle" font-family="Arial">你</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于部分 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>这里可以写一段关于你自己的介绍。描述你的背景、兴趣和专业领域。</p>
+                    <p>你可以分享你的教育经历、工作经验，或者你对技术的热情。</p>
+                    <p>让访问者了解你是谁，以及你能提供什么价值。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能部分 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">技能</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>前端开发</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>后端开发</h3>
+                    <p>Node.js, Python, Java, 数据库</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>设计</h3>
+                    <p>UI/UX设计, 响应式设计</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>工具</h3>
+                    <p>Git, Docker, CI/CD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目部分 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">项目</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">项目图片</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>项目名称 1</h3>
+                        <p>项目描述：这是一个很棒的项目，展示了你的技能和创造力。</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">查看代码</a>
+                            <a href="#" class="project-link">在线演示</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">项目图片</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>项目名称 2</h3>
+                        <p>项目描述：另一个令人印象深刻的项目，体现了你的专业能力。</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">查看代码</a>
+                            <a href="#" class="project-link">在线演示</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">项目图片</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>项目名称 3</h3>
+                        <p>项目描述：展示你多样化技能组合的项目。</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">查看代码</a>
+                            <a href="#" class="project-link">在线演示</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系部分 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <p class="contact-text">如果你对我的工作感兴趣，或者想要合作，欢迎联系我！</p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-link">
+                        <span class="contact-icon">📧</span>
+                        <span>邮箱</span>
+                    </a>
+                    <a href="https://github.com/yourusername" class="contact-link" target="_blank">
+                        <span class="contact-icon">💻</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" class="contact-link" target="_blank">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://twitter.com/yourusername" class="contact-link" target="_blank">
+                        <span class="contact-icon">🐦</span>
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 你的名字. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
